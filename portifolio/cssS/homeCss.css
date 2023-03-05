@@ -1,3 +1,41 @@
 body{
-    background: url(imgS/imgteste.jpg);
+    margin: 0px;
+}
+html {
+    min-height: 100%;
+    background-image: url(imgS/fundoRoxo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+ }
+ 
+.containerCenter{
+    width: auto;
+    height: 65vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-left: 2%;
+}   
+
+.center{
+    width: 300px;
+    height: 460px;
+    background: #fff;
+    border: solid;
+    border-width: 3px;
+    border-color: rgb(128, 0, 128);
+
+    transition: 1s;
+}
+
+.center:hover{
+    transform: scale(1.12);
+    box-shadow: 2px 2px 2px #000;
+    z-index: 2;
+}
+
+.centertitle{
+    text-align: center;
 }
