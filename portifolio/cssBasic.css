@@ -16,7 +16,10 @@ a:visited{
     color: inherit;
 }
 
-
+a:link{
+    text-decoration: solid;
+    color: inherit;
+}
 
 .relative{
     position: relative;
@@ -60,7 +63,7 @@ dl{
 }
 
 .github:hover{
-    transform: scale(1.12);
+    transform: scale(1.20);
     z-index: 2;
 }
 
@@ -69,12 +72,16 @@ dl{
 }
 
 .linkedin:hover{
-    transform: scale(1.12);
+    transform: scale(1.20);
     z-index: 2;
 }
 
 .insta{
-    transform: scale(1.12);
+    transition: 1s;
+}
+
+.insta:hover{
+    transform: scale(1.20);
     z-index: 2;
 }
 
